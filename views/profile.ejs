@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+    </head>
+<body>
+    <!-- Untuk tampilin usernamenya -->
+    <h1>Hello, <%= user.displayName %> </h1> 
+    <!-- Untuk tampilin email -->
+    <p>Email: <%= user.emails[0].value %></p> 
+    <br>
+    <a href="/logout">
+        <!-- Tombol logout untuk logout -->
+        <button>Logout</button> 
+    </a>
+</body>
+</html>
